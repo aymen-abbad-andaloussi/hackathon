@@ -2,9 +2,11 @@ import React, { createContext, useContext } from "react";
 
 const MyContext = createContext();
 const MyProvider = ({ children }) => {
-  const name = "mehdi";
+  //! type here the variables you need to use it in others componenets
 
-  const data = { name };
+  const data = { 
+    //? type here the name the variables
+   };
 
   return (
     <>
